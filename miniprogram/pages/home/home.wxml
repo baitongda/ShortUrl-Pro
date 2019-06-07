@@ -1,0 +1,45 @@
+<view class=' top'>
+<view class='box' >
+     <view  class='userinfo' style="flex-grow:1;" >
+      <view class="userinfo-avatar"><open-data  type="userAvatarUrl"></open-data></view>
+     </view>
+     <view  style="flex-grow:4;" >
+            <view class='title'><open-data  type="userNickName"></open-data></view>
+             <view  class='title'>剩余积分：{{points}}</view>
+     </view> 
+ </view>
+  <view class='kb1'></view>
+ <view class='kb2'></view>
+ </view>
+<view wx:for="{{list}}">
+<view class='contain' bindtap='go' data-key='{{item.key}}'>
+ <view class='box' >
+ <view  style="flex-grow:1;" class='logo' >
+ <image src="{{item.img}}" mode='widthFix' ></image>
+  </view>
+   <view  style="flex-grow:4;" >
+              <view class='name'>{{item.title}}</view>
+             <view  class='des'>{{item.content}}</view>
+  </view>
+   <view  style="flex-grow:1;"  class='button'>
+   <button size='mini'>查看</button>
+  </view>
+ </view>
+ </view>
+</view>
+
+<!--意见反馈-->
+ <view class='contain'>
+ <view class='box' >
+ <view  style="flex-grow:1;" class='logo' >
+ <image src="https://ws3.sinaimg.cn/large/005BYqpggy1g3ruijfjobj303k03kmwz.jpg" mode='widthFix' ></image>
+  </view>
+   <view  style="flex-grow:4;" >
+              <view class='name'>意见反馈</view>
+             <view  class='des'>请提出您的宝贵意见</view>
+  </view>
+   <view  style="flex-grow:1;"  class='button'>
+   <button size='mini' open-type='feedback'>提交</button>
+  </view>
+ </view>
+ </view>

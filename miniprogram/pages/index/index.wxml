@@ -1,0 +1,29 @@
+	<view class="cu-form-group">
+		<textarea maxlength="-1"  bindinput="inPut" placeholder="请输入需要转换的地址，如：https://www.zhai78.com" value = "{{urls}}"></textarea>
+	</view>
+<van-row gutter="0">
+  <van-col span="12">
+  <van-button type="default" size="large" bind:click="clear">清空输入</van-button>
+  </van-col>
+  <van-col span="12">
+      <van-button type="info" size="large" bind:click="check">马上生成</van-button>
+  </van-col>
+</van-row>
+<ad unit-id="adunit-5c0b348e3d389fed"></ad>
+<view style='margin:30rpx;  border-radius::40rpx'>
+<!--生成短链-->
+<van-cell-group title="生成短链" wx:if='{{list!==""}}'>
+ <van-cell  wx:for="{{list}}" title="{{item.name}}" is-link value="{{item.url}}"
+ bind:click="copy" data-copy="{{item.url}}" />
+</van-cell-group>
+
+<!--历史记录-->
+<van-cell-group title="最近转换" >
+ <van-cell  wx:for="{{his}}"  title="{{item.time}}" is-link value="{{item.url}}"  bind:click="url" data-url="{{item.url}}" class="text-cut"/>
+ <van-dialog id="van-dialog" />
+</van-cell-group>
+<view wx:if="{{his==''}}" style='display:flex;justify-content:center;color:white;font-size:medium'>--暂无记录--</view>
+</view>
+
+
+<import src="../../template.wxml"/><template is="share" />

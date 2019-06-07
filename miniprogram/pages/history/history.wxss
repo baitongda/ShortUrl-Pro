@@ -1,0 +1,6 @@
+page{
+  background-color: #1989fa;
+}
+.box{
+  margin:20rpx;
+}

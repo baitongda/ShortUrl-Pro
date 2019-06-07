@@ -1,0 +1,29 @@
+<swiper autoplay="true" circular="true"  style='height:{{high}}px' interval="3000">
+      <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}"  style='width:100%' mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<van-collapse value="{{ activeName }}" bind:change="onChange" accordion>
+  <van-collapse-item title="这个小程序是做什么的？" name="1">
+    本程序支持将一系列的冗长链接地址转化为简短的链接，理论上永久不丢失不失效
+  </van-collapse-item>
+  <van-collapse-item title="收取服务费吗" name="2">
+    本程序不收取任何费用
+  </van-collapse-item>
+  <van-collapse-item title="怎么获取程序完整源码？" name="3">
+    此程序完全免费，目前已开源在Github，主页地址：https://github.com/xuhuai66  请不要吝啬给个star哟
+  </van-collapse-item>
+    <van-collapse-item title="积分用完了怎么办？" name="4">
+    您可以通过完成规定的任务领取积分
+  </van-collapse-item>
+    <van-collapse-item title="我使用中遇到问题怎么办？" name="5">
+    点击底部的【添加客服】，添加微信后将您的问题发送给我们，我们会在第一时间回复您
+  </van-collapse-item>
+</van-collapse>
+<view class='kefu'>
+<button bindtap='kefu'>添加客服</button>
+</view>
+<van-dialog id="van-dialog" />

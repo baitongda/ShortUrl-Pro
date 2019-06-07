@@ -1,0 +1,79 @@
+<ad unit-id="adunit-5c0b348e3d389fed"></ad>
+<view class='content' style='margin-top: 20rpx;' >
+<view class='box' bindtap='openad'>
+<!--图片-->
+   <view class='logo' style="flex-grow:1;">
+    <image src="https://ws3.sinaimg.cn/large/005BYqpggy1g3rl61sdzgj303k03kdfo.jpg" mode='widthFix' ></image>
+   </view>
+   <!--操作-->
+   <view  style="flex-grow:6;" >
+         <view class='box' >
+             <view class='title' style="flex-grow:4;">  观看视频   </view>
+             <view class='button' style="flex-grow:1;"> 
+               <button class='but'><text>去观看</text></button>
+               </view>
+         </view>
+         <view class="des">每天观看次数不限，如果观看不了，稍等片刻再播放即可</view>
+          <view class='box' style='margin:0 20rpx'>
+              <view class="point1"style="flex-grow:1;"> {{count_v}} / - - </view>
+              <view class="point2" style="flex-grow:1;">
+                 <text>奖励积分</text>
+                 <text class = 'points'>+2</text>
+               </view>
+          </view>
+   </view>
+</view>
+</view>
+
+
+<view class='content'>
+<view class='box' bindtap='vip'>
+<!--图片-->
+   <view class='logo' style="flex-grow:1;">
+    <image src="https://ws3.sinaimg.cn/large/005BYqpggy1g3rlaxds9kj303k03kmx0.jpg" mode='widthFix' ></image>
+   </view>
+   <!--操作-->
+   <view  style="flex-grow:6;">
+         <view class='box' >
+             <view class='title' style="flex-grow:4;">  领取会员账号   </view>
+             <view class='button' style="flex-grow:1;"> 
+               <button class='but'><text>去领取</text></button>
+               </view>
+         </view>
+         <view class="des">免费领取全网各大网站vip会员，每日限量领取一次哟</view>
+          <view class='box' style='margin:0 20rpx'>
+              <view class="point1"style="flex-grow:1;">{{count_p}} / 1 </view>
+              <view class="point2" style="flex-grow:1;">
+                 <text>奖励积分</text>
+                 <text class = 'points'>+1</text>
+               </view>
+          </view>
+   </view>
+</view>
+</view>
+
+<view class='content' >
+<view class='box'  bindtap='nickname'>
+<!--图片-->
+   <view class='logo' style="flex-grow:1;">
+    <image src="https://ws3.sinaimg.cn/large/005BYqpggy1g3rl87fzxjj303k03kglf.jpg" mode='widthFix' ></image>
+   </view>
+   <!--操作-->
+   <view  style="flex-grow:6;">
+         <view class='box' >
+             <view class='title' style="flex-grow:4;">  昵称定制   </view>
+             <view class='button' style="flex-grow:1;"> 
+               <button class='but'><text>去制作</text></button>
+               </view>
+         </view>
+         <view class="des">即刻免费制作各种装逼昵称，每日限量领取一次哟</view>
+          <view class='box' style='margin:0 20rpx'>
+              <view class="point1"style="flex-grow:1;">{{count_q}} / 1 </view>
+              <view class="point2" style="flex-grow:1;">
+                 <text>奖励积分</text>
+                 <text class = 'points'>+1</text>
+               </view>
+          </view>
+   </view>
+</view>
+</view>

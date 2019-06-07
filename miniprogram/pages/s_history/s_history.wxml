@@ -1,0 +1,11 @@
+<ad unit-id="adunit-5c0b348e3d389fed"></ad>
+<view class="box">
+<van-cell-group title="仅显示最新30条">
+  <van-cell wx:for="{{his}}" title="{{item.name}}" value="{{item.points}}" label="{{item.time}}" border="true" />
+</van-cell-group>
+<view wx:if="{{his==''}}" style='display:flex;justify-content:center;color:white;font-size:medium'>--暂无记录--</view>
+</view>
+
+
+
+<import src="../../template.wxml"/><template is="share" />

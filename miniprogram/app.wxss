@@ -1,0 +1,48 @@
+.text-cut{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+
+.s_boxs{
+    display: -webkit-flex;
+    display: flex;
+    margin:20rpx;
+    background: #ffffff;
+    border-radius: 40rpx;
+   box-shadow: 0px 0px 10px #dbdbdb;
+}
+.s_des{
+  margin:20rpx;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  word-break:break-all;
+}
+.s_bottom{
+  position: fixed;  
+  bottom: 30rpx;
+  left:0rpx;
+}
+.s_logo{
+  padding:30rpx;
+}
+.s_button{
+padding:20rpx;
+  display: flex;
+align-items:center;
+justify-content: center;
+}
+.s_button button{
+  background-color: #1989fa;
+  font-size: small;
+  color: #ffffff;
+  border-radius: 40rpx;
+  width: 130rpx;
+  height: 60rpx;
+ background: #1989fa;
+border: none;
+  display: flex;
+align-items:center;
+justify-content: center;
+}

@@ -1,0 +1,18 @@
+<template name="share">
+<view class='s_bottom'>
+    <view class="s_boxs">
+       <view  style="flex-grow:1;" >
+       <view class='s_logo'>
+        <image src='https://ws3.sinaimg.cn/large/005BYqpggy1g3rv9i6mhkj303k03kdfn.jpg' mode='widthFix' style='width:50rpx'></image>
+       </view>
+        </view>
+        <view  style="flex-grow:5;" >
+        <view class='s_des'>
+        觉得我们的APP不错？分享给好友，一起来使用吧 
+        </view>
+        </view>
+         <view  style="flex-grow:3;" class='s_button'><button  open-type='share'>分享</button></view>
+    </view>
+</view>
+
+</template>

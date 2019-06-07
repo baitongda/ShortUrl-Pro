@@ -1,0 +1,69 @@
+page{
+  background: #ffffff;
+}
+
+.box{
+  display: -webkit-flex;
+    display: flex;
+   
+}
+.but{
+width: 150rpx;
+height: 50rpx;
+ background: #1989fa;
+border: none;
+display: flex;
+align-items:center;
+justify-content: center;
+}
+.but::after{
+border: none;
+ }
+ .but text{
+  color: #ffffff;
+ position: relative;
+text-align: center;
+font-size: x-small;
+font-weight: bolder;
+ }
+
+.button{
+display: flex;
+align-items: flex-end;
+}
+.des{
+  color: #646464;
+  margin:20rpx;
+  font-size: small;
+}
+.title{
+  margin-left: 20rpx;
+  font-size: medium;
+}
+.logo{
+  display:flex;
+  justify-content: center;
+  padding: 10rpx;
+}
+.logo image{
+width: 90rpx;
+}
+.point1{
+    color: #646464;
+  font-size: small;
+}
+.point2{
+    color: #646464;
+    margin-right: 20rpx;
+  font-size: small;
+  display: flex;
+  justify-content: flex-end;
+}
+.points{
+  color: red;
+  font-weight: bold;
+}
+.content{
+  position: relative;
+  margin-bottom: 50rpx;
+}

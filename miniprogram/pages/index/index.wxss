@@ -1,0 +1,21 @@
+page{
+  background-color: #1989fa;
+}
+.cu-form-group {
+	background-color: #ffffff;
+	padding: 1rpx 30rpx;
+	display: flex;
+	align-items: center;
+	min-height: 100rpx;
+	justify-content: space-between;
+}
+
+.cu-form-group textarea {
+	margin: 32rpx 0 30rpx;
+	height: 4.6em;
+	width: 100%;
+	line-height: 1.2em;
+	flex: 1;
+	font-size: 28rpx;
+	padding: 0;
+}
