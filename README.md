@@ -16,3 +16,6 @@
 <p>
 	<a href="https://mp.weixin.qq.com/s/7KQoGtY5Sab4EJwVXqMQsA" target="_blank"><span style="color:#337FE5;font-size:18px;">https://mp.weixin.qq.com/s/7KQoGtY5Sab4EJwVXqMQsA</span></a> 
 </p>
+<p>
+	<span style="color:#000000;font-size:18px;">感觉程序不错，希望能给个star支持一下，谢谢</span>
+</p>
